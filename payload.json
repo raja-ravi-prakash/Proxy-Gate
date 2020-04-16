@@ -1,0 +1,13 @@
+{
+  "client": {
+    "domain": "localhost",
+    "port": 8080,
+    "custom": {
+      "source": "./web/index.html"
+    }
+  },
+  "proxy": {
+    "domain": "localhost",
+    "port": 80
+  }
+}

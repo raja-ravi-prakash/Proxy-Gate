@@ -1,0 +1,21 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "A Type of proxy with puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy": "node index.js",
+    "client": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/proxy"
+  },
+  "author": "Raja Ravi Prakash",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^2.1.1"
+  }
+}
